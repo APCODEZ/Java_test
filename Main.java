@@ -1,9 +1,15 @@
 public class Main {
   public static void main(String[] args) {
-    int i = 0;
-    while (true) {
-      System.out.println("i");
-      
-    }  
-  }
+    String name = "john";
+    System.out.println(name);
+    int myNum = 15;
+    System.out.println(myNum);
+    System.out.println(myNum + 5);
+    //changing myNum to 20
+    myNum = 20;
+    System.out.println("After myNum changed to 20");
+    System.out.println(myNum);
+    System.out.println(myNum + 5);
+  }  
+  
 }
